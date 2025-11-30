@@ -109,7 +109,7 @@ main {
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--text-muted);
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 .hero-eyebrow {
@@ -118,6 +118,12 @@ main {
   letter-spacing: 0.15em;
   color: var(--text-muted);
   margin-bottom: 0.4rem;
+}
+
+.hero-location {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
 }
 
 .hero-body {
@@ -272,6 +278,12 @@ main {
 
 .project-card {
   position: relative;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
 }
 
 .project-tag {
@@ -416,10 +428,6 @@ main {
 
   .hero-photo-wrapper {
     order: -1;
-  }
-
-  .nav-links {
-    display: none; /* For simplicity; can be enhanced with mobile menu */
   }
 }
 
