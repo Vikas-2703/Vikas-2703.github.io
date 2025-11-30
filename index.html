@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikas | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo">Vikas<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Data Analytics Portfolio</p>
+        <h1>Hi, I'm Vikas.</h1>
+        <h2>Data Analyst | BI Analyst | Reporting Specialist</h2>
+        <p class="hero-body">
+          I help teams make better decisions using clean data, clear dashboards,
+          and focused analysis. I enjoy building end-to-end solutions – from raw
+          data and SQL queries to Power BI reports, time series models, and business-ready
+          insights.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        <div class="hero-tags">
+          <span>SQL</span>
+          <span>Power BI</span>
+          <span>Python</span>
+          <span>Tableau</span>
+        </div>
+      </div>
+      <div class="hero-photo-wrapper">
+        <!-- Replace profile.jpg with your own image, same file name -->
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Photo of Vikas" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="section-header">
+        <h3>Skills</h3>
+        <p>A snapshot of the tools and techniques I use most often.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="card">
+          <h4>Data & Querying</h4>
+          <ul>
+            <li>SQL (PostgreSQL, MySQL, Snowflake)</li>
+            <li>Data cleaning & transformation</li>
+            <li>Joins, aggregations, window functions</li>
+            <li>Data modelling & validation</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Analytics & BI</h4>
+          <ul>
+            <li>Power BI (DAX, data models)</li>
+            <li>Tableau dashboards</li>
+            <li>Excel (pivot tables, lookups)</li>
+            <li>Reporting & KPI tracking</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Programming</h4>
+          <ul>
+            <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+            <li>R for stats & time series</li>
+            <li>Jupyter & RStudio</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Methods & Domain</h4>
+          <ul>
+            <li>Exploratory data analysis (EDA)</li>
+            <li>Time series forecasting (ARIMA)</li>
+            <li>Experimentation & hypothesis testing</li>
+            <li>Stakeholder reporting & communication</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h3>Projects</h3>
+        <p>
+          A selection of data and analytics projects demonstrating my approach to
+          problem solving, analysis, and communication.
+        </p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="card project-card">
+          <div class="project-tag">Power BI & Reporting</div>
+          <h4>Retail Sales Performance Dashboard</h4>
+          <p>
+            An end-to-end retail analytics dashboard in Power BI, built from
+            raw transactional data to help track revenue, profit, product
+            performance, and regional trends.
+          </p>
+          <ul class="project-bullets">
+            <li>Cleaned and modelled sales data for reporting in Power BI.</li>
+            <li>Designed KPIs: revenue, profit, orders, AOV, and margin%.</li>
+            <li>Built interactive views for trends, top products, and regions.</li>
+          </ul>
+          <p class="project-stack">
+            <strong>Stack:</strong> Power BI, Excel, Power Query, DAX
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Vikas-2703/Retail-Sales-PowerBI-Dashboard" target="_blank">View on GitHub</a>
+            <span>•</span>
+            <span class="muted">Dashboard PDF & PBIX available in repo</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card project-card">
+          <div class="project-tag">Python & Tableau</div>
+          <h4>Audiobook Pricing & Ratings Analysis</h4>
+          <p>
+            Analysis of audiobook metadata to understand how pricing and
+            content features relate to ratings and potential sales performance.
+          </p>
+          <ul class="project-bullets">
+            <li>Used SQL and Python to clean and shape audiobook datasets.</li>
+            <li>Explored relationships between price, length, category, and ratings.</li>
+            <li>Built visual dashboards to communicate category and pricing trends.</li>
+          </ul>
+          <p class="project-stack">
+            <strong>Stack:</strong> Python (Pandas), SQL, Tableau, PostgreSQL
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Vikas-2703/AudioBook-Prediction-Using-ML-models" target="_blank">View on GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card project-card">
+          <div class="project-tag">R & Time Series</div>
+          <h4>US Military Spending Time Series Forecasting</h4>
+          <p>
+            Time series analysis of 60+ years of US defence budget data to
+            forecast future spending and understand long-term trends.
+          </p>
+          <ul class="project-bullets">
+            <li>Converted historical budget data into a time series structure.</li>
+            <li>Performed stationarity tests and fitted ARIMA models.</li>
+            <li>Generated 10-year forecasts with confidence intervals.</li>
+          </ul>
+          <p class="project-stack">
+            <strong>Stack:</strong> R, forecast, tseries, ggplot2
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Vikas-2703/us-military-spending-forecasting" target="_blank">View on GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-alt">
+      <div class="section-header">
+        <h3>About</h3>
+        <p>A bit more about my background and how I work.</p>
+      </div>
+      <div class="about-layout">
+        <div class="about-text">
+          <p>
+            I'm a data analyst based in Melbourne with experience in research,
+            IT support, and analytics internships. I enjoy working across the
+            full data lifecycle: gathering requirements, cleaning and modelling
+            data, building dashboards, and presenting insights to stakeholders.
+          </p>
+          <p>
+            My recent work includes supporting academic research at RMIT,
+            resolving data-related issues in IT service environments, and
+            building analytics solutions that reduce manual effort and improve
+            reporting accuracy.
+          </p>
+          <p>
+            I’m especially interested in roles where I can combine
+            <strong>SQL, BI tools, and clear communication</strong> to help
+            teams make evidence-based decisions.
+          </p>
+        </div>
+        <div class="about-meta">
+          <div class="meta-block">
+            <h4>Education</h4>
+            <p><strong>Master of Data Science</strong><br />RMIT University</p>
+            <p><strong>Bachelor of Technology</strong><br />Kurukshetra University</p>
+          </div>
+          <div class="meta-block">
+            <h4>Certifications</h4>
+            <ul>
+              <li>Google Data Analytics Professional Certificate</li>
+              <li>Python Data Structures (Coursera)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h3>Contact</h3>
+        <p>
+          If you'd like to discuss an opportunity or just connect about data
+          and analytics, feel free to reach out.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <h4>Say hello</h4>
+          <p>Email is usually the best way to reach me.</p>
+          <p>
+            <a href="mailto:nitesh.vikas11@gmail.com">nitesh.vikas11@gmail.com</a>
+          </p>
+        </div>
+        <div class="card contact-card">
+          <h4>Elsewhere</h4>
+          <ul>
+            <li>
+              <a href="https://github.com/Vikas-2703" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/vikas-66161921b" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Vikas · Data Analyst & BI Specialist</p>
+  </footer>
+</body>
+</html>
